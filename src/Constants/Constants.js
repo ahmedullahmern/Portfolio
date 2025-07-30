@@ -5,48 +5,47 @@ import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 
 // for project 1
-import project1Img1 from '../assets/Project1/login.png'
-import project1Img2 from '../assets/Project1/verification.png'
-import project1Img3 from '../assets/Project1/student 1.png'
-import project1Img4 from '../assets/Project1/student.png'
-import project1Img5 from '../assets/Project1/student 2.png'
-import project1Img6 from '../assets/Project1/student 3.png'
-import project1Img7 from '../assets/Project1/student 4.png'
-import project1Img8 from '../assets/Project1/student 5.png'
-import project1Img9 from '../assets/Project1/student 6.png'
-import project1Img10 from '../assets/Project1/trainer 1.png'
-import project1Img11 from '../assets/Project1/trainer 2.png'
-import project1Img12 from '../assets/Project1/trainer 3.png'
-import project1Img13 from '../assets/Project1/trainer 4.png'
-import project1Img14 from '../assets/Project1/admin 1.png'
-import project1Img15 from '../assets/Project1/admin 2.png'
-import project1Img16 from '../assets/Project1/admin 3.png'
-import project1Img17 from '../assets/Project1/admin 4.png'
+import project1Img1 from '../assets/Project1/ecom1.png'
+import project1Img2 from '../assets/Project1/ecom2.png'
+import project1Img3 from '../assets/Project1/ecom3.png'
+import project1Img4 from '../assets/Project1/ecom4.png'
+import project1Img5 from '../assets/Project1/ecom5.png'
+import project1Img6 from '../assets/Project1/ecom6.png'
+import project1Img7 from '../assets/Project1/ecom7.png'
+import project1Img8 from '../assets/Project1/ecom8.png'
+import project1Img9 from '../assets/Project1/ecom9.png'
+import project1Img10 from '../assets/Project1/ecom10.png'
+import project1Img11 from '../assets/Project1/ecom11.png'
+import project1Img12 from '../assets/Project1/ecom12.png'
+import project1Img13 from '../assets/Project1/ecom13.png'
 
 // for project 2
-import project2Img1 from '../assets/Project2/Blog 1.png'
-import project2Img2 from '../assets/Project2/Blog 2.png'
-import project2Img3 from '../assets/Project2/Blog 3.png'
-import project2Img4 from '../assets/Project2/Blog 4.png'
-import project2Img5 from '../assets/Project2/Blog 5.png'
-import project2Img6 from '../assets/Project2/Blog 6.png'
+import project2Img1 from '../assets/Project2/ben1.png'
+import project2Img2 from '../assets/Project2/ben2.png'
+import project2Img3 from '../assets/Project2/ben3.png'
+import project2Img4 from '../assets/Project2/ben4.png'
+import project2Img5 from '../assets/Project2/ben5.png'
+import project2Img6 from '../assets/Project2/ben6.png'
+import project2Img7 from '../assets/Project2/ben7.png'
+import project2Img8 from '../assets/Project2/ben8.png'
+import project2Img9 from '../assets/Project2/ben9.png'
 
 // for project 3
-import project3Img1 from '../assets/Project3/Site 1.png'
-import project3Img2 from '../assets/Project3/Site 2.png'
-import project3Img3 from '../assets/Project3/Site 3.png'
-import project3Img4 from '../assets/Project3/Site 4.png'
-import project3Img5 from '../assets/Project3/Site 5.png'
+// import project3Img1 from '../assets/Project3/Site 1.png'
+// import project3Img2 from '../assets/Project3/Site 2.png'
+// import project3Img3 from '../assets/Project3/Site 3.png'
+// import project3Img4 from '../assets/Project3/Site 4.png'
+// import project3Img5 from '../assets/Project3/Site 5.png'
 
 // for project 4
-import project4Img1 from '../assets/Project4/quiz 1.png'
-import project4Img2 from '../assets/Project4/quiz 2.png'
-import project4Img3 from '../assets/Project4/quiz 3.png'
+// import project4Img1 from '../assets/Project4/quiz 1.png'
+// import project4Img2 from '../assets/Project4/quiz 2.png'
+// import project4Img3 from '../assets/Project4/quiz 3.png'
 
 // for project 5
-import project5Img1 from '../assets/Project5/smit 1.png'
-import project5Img2 from '../assets/Project5/smit 2.png'
-import project5Img3 from '../assets/Project5/smit 3.png'
+// import project5Img1 from '../assets/Project5/smit 1.png'
+// import project5Img2 from '../assets/Project5/smit 2.png'
+// import project5Img3 from '../assets/Project5/smit 3.png'
 
 // socialIcons
 import { FaFacebookF } from "react-icons/fa";
@@ -221,14 +220,10 @@ const portfolio = [
             project1Img11,
             project1Img12,
             project1Img13,
-            project1Img14,
-            project1Img15,
-            project1Img16,
-            project1Img17,
         ],
-        title: "Assignment Submission Portal",
-        description: "The Assignment Submission Portal simplifies the management of classes, assignments, and profiles for admins, trainers, and students. It includes key features like user management, class creation, and secure assignment submissions. Developed with a robust tech stack, it ensures a secure and efficient experience.",
-        link: "https://assignment-submission-portal.vercel.app/"
+        title: "E-commerce Website (MERN Stack)",
+        description: "The E-commerce Admin & User Dashboard streamlines product, order, and user management. Admins can add, edit, or delete products, update order statuses, and manage users. Built with the MERN stack, it ensures a secure and efficient shopping experience.",
+        link: "https://e-commerce-frontend-teal-gamma.vercel.app/"
     },
     {
         images: [
@@ -238,43 +233,46 @@ const portfolio = [
             project2Img4,
             project2Img5,
             project2Img6,
+            project2Img7,
+            project2Img8,
+            project2Img9,
         ],
-        title: "Blogging Website",
-        description: "I've developed an adaptive blog platform using React,js for smooth data handling with Firebase, prioritizing security to safeguard user information. The emphasis is on providing an accurate, secure, and user-centric blogging experience.",
-        link: "https://react-blogging-website-orpin.vercel.app/"
+        title: "Beneficiary Management",
+        description: "A role-based MERN stack app built for Saylani Welfare to manage beneficiaries using a CNIC-based system. It defines roles for admins, receptionists, and staff to register, assist, and track help seekers. Key features include real-time token generation, status tracking, dashboards, and complete beneficiary history — ensuring organized data, transparency, and secure departmental access",
+        link: "https://beneficary-frontend.vercel.app/"
     },
-    {
-        images: [
-            project3Img1,
-            project3Img2,
-            project3Img3,
-            project3Img4,
-            project3Img5
-        ],
-        title: "My Site",
-        description: "This website showcases a My Site homepage. The platform emphasizes the site offerings, which encompass innovative design, performance enhancement, and complete customization. The site also includes feedback from delighted clients and a prompt to download the My Site application.",
-        link: "https://next-pwa-pied-two.vercel.app/"
-    },
-    {
-        images: [
-            project4Img1,
-            project4Img2,
-            project4Img3,
-        ],
-        title: "Quiz App",
-        description: "I have developed a quiz app using React.js that generates random questions and tracks your score in real-time. The app not only provides immediate feedback on your performance but also determines whether you've passed or failed, offering an engaging and interactive quiz experience.",
-        link: "https://react-quiz-ivory.vercel.app/"
-    },
-    {
-        images: [
-            project5Img1,
-            project5Img2,
-            project5Img3,
-        ],
-        title: "Saylani Enrollment Form",
-        description: "I have crafted a user-friendly and responsive enrolment form that mirrors the functionality of the Saylani form. This project was a fantastic opportunity to enhance my skills in HTML, CSS, and JavaScript, as well as integrate Firebase Firestore for seamless data storage.",
-        link: "https://muhammadnoman004.github.io/SMIT-Form/"
-    },
+    // {
+    //     images: [
+    //         project3Img1,
+    //         project3Img2,
+    //         project3Img3,
+    //         project3Img4,
+    //         project3Img5
+    //     ],
+    //     title: "My Site",
+    //     description: "This website showcases a My Site homepage. The platform emphasizes the site offerings, which encompass innovative design, performance enhancement, and complete customization. The site also includes feedback from delighted clients and a prompt to download the My Site application.",
+    //     link: "https://next-pwa-pied-two.vercel.app/"
+    // },
+    // {
+    //     images: [
+    //         project4Img1,
+    //         project4Img2,
+    //         project4Img3,
+    //     ],
+    //     title: "Quiz App",
+    //     description: "I have developed a quiz app using React.js that generates random questions and tracks your score in real-time. The app not only provides immediate feedback on your performance but also determines whether you've passed or failed, offering an engaging and interactive quiz experience.",
+    //     link: "https://react-quiz-ivory.vercel.app/"
+    // },
+    // {
+    //     images: [
+    //         project5Img1,
+    //         project5Img2,
+    //         project5Img3,
+    //     ],
+    //     title: "Saylani Enrollment Form",
+    //     description: "I have crafted a user-friendly and responsive enrolment form that mirrors the functionality of the Saylani form. This project was a fantastic opportunity to enhance my skills in HTML, CSS, and JavaScript, as well as integrate Firebase Firestore for seamless data storage.",
+    //     link: "https://muhammadnoman004.github.io/SMIT-Form/"
+    // },
 ]
 
 // contact
